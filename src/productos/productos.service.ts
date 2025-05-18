@@ -9,6 +9,7 @@ export class ProductosService {
     return new Productos();
   }
 
+//Funcion para obtener todos los usuarios
   findAll() {
     return `This action returns all productos`;
   }
