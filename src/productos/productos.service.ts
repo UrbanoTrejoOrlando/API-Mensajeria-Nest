@@ -19,6 +19,7 @@ export class ProductosService {
     return `This action returns a #${id} producto`;
   }
 
+  //Funcion para actulizar un usuario
   update(id: number, updateProductoDto: UpdateProductoDto) {
     return `This action updates a #${id} producto`;
   }
