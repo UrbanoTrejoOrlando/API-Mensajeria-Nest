@@ -14,6 +14,7 @@ export class ProductosService {
     return `This action returns all productos`;
   }
 
+//Funcion para obtener un usuario en especifico
   findOne(id: number) {
     return `This action returns a #${id} producto`;
   }
